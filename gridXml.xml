@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="16.0.1" class="java.beans.XMLDecoder">
+ <object class="fr.test.java.modele.ListeVehiculeXml">
+  <void property="vehicules">
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="fr.test.java.modele.Voiture">
+      <void property="annee">
+       <int>12</int>
+      </void>
+      <void property="couleur">
+       <string>asdf</string>
+      </void>
+      <void property="immatriculation">
+       <string>asdf</string>
+      </void>
+      <void property="marque">
+       <string>asdf</string>
+      </void>
+      <void property="modele">
+       <string>asdf</string>
+      </void>
+      <void property="nombreRoues">
+       <int>4</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="fr.test.java.modele.Motocyclette">
+      <void property="immatriculation">
+       <string>immatriculation</string>
+      </void>
+      <void property="marque">
+       <string></string>
+      </void>
+      <void property="modele">
+       <string>express</string>
+      </void>
+      <void property="nombreRoues">
+       <int>2</int>
+      </void>
+      <void property="puissance">
+       <int>100</int>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
